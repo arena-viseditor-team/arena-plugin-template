@@ -4,7 +4,7 @@
   "author": "Arena",
   "description": "A demo for arena plugin",
   "scripts": {
-    "dev": "arena-plugin dev",
+    "dev": "../apc/bin/run build --dev",
     "eslint": "./node_modules/.bin/eslint app/**/*.js app/**/*.jsx",
     "precommit": "npm run lint",
     "lint": "./node_modules/.bin/eslint --ext .js,.jsx app --fix"

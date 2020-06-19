@@ -1,6 +1,10 @@
-import demo from './demoPlugin.js';
+const pluginRule = require.context('./', true, /^\.\/(plugins|views)(\/[\w.-]+)?\/entry.(js|ts)$/);
 
-export {
-  // 示例插件
-  demo,
-};
+let plugins = {};
+
+pluginRule.keys().forEach(key => {
+  const target = pluginRule(key).default;
+  plugins = Object.assign({}, plugins, { [target.name]: target });
+});
+
+export default plugins;

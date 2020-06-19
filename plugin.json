@@ -5,11 +5,17 @@
   "description": "Arena 官方示例插件",
   "version": "0.0.1",
   "main": "app/index.js",
-  "target": 3,
+  "panelMain": "app/panel.js",
   "plugins": [
     {
-      "name": "demo",
-      "export": "demo",
+      "name": "demo1",
+      "export": "Demo1",
+      "icon": "app/static/icon/demo.png",
+      "thumb": "app/static/thumb/demo.jpg"
+    },
+    {
+      "name": "demo2",
+      "export": "Demo2",
       "icon": "app/static/icon/demo.png",
       "thumb": "app/static/thumb/demo.jpg"
     }

@@ -1,11 +1,6 @@
-import Panel from './demoPanel.arena.jsx';
-import {ArenaPluginDOM} from 'arena-types';
+import { ArenaPluginDOM } from 'arena-types';
 
-export default class Demo extends ArenaPluginDOM {
-  static panel() {
-    return new Panel().render();
-  }
-  
+export default class Demo2 extends ArenaPluginDOM {
   onMounted() {
     this.dom = document.createElement('p');
     this.dom.style.color = 'red';
@@ -14,7 +9,7 @@ export default class Demo extends ArenaPluginDOM {
   }
 
   propWillUpdate() {
-    console.log(this.$arena.data);
+    // console.log(this.$arena.data);
     this.dom.innerText = this.$arena.data.bindDemoInput;
     // setInterval(() => {
     //   this.$events.output('bindVoiceRes', Math.random())
