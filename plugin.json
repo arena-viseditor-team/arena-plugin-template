@@ -4,8 +4,6 @@
   "author": "Arena",
   "description": "Arena 官方示例插件",
   "version": "0.0.1",
-  "main": "app/index.js",
-  "panelMain": "app/panel.js",
   "plugins": [
     {
       "name": "demo1",
