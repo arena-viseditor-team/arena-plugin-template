@@ -4,15 +4,22 @@
   "author": "Arena",
   "description": "Arena 官方示例插件",
   "version": "0.0.1",
+  "assets": {
+    "thumb": "",
+    "pluginIcon": "app/static/assets/demo.jpg",
+    "categoryIcon": "",
+    "cover": "app/static/assets/demo.jpg",
+    "markdown": "README.md"
+  },
   "plugins": [
     {
-      "name": "demo1",
+      "name": "示例1",
       "export": "Demo1",
       "icon": "app/static/icon/demo.png",
       "thumb": "app/static/thumb/demo.jpg"
     },
     {
-      "name": "demo2",
+      "name": "示例2",
       "export": "Demo2",
       "icon": "app/static/icon/demo.png",
       "thumb": "app/static/thumb/demo.jpg"
