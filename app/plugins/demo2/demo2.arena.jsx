@@ -121,7 +121,3 @@ export default class Demo2 {
     );
   }
 }
-
-// 样式调好
-// 确定一下值
-// 能不能只有all
