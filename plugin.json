@@ -1,8 +1,8 @@
 {
-  "name": "demo",
+  "name": "示例插件包",
   "pluginId": "official.arena.demo",
-  "author": "Arena",
-  "description": "Arena 官方示例插件",
+  "author": "即视可视化团队",
+  "description": "即视官方示例插件",
   "version": "0.0.1",
   "assets": {
     "thumb": "",
